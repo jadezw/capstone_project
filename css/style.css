@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.masterheader {
+    background-color: #e4002b;
+    color: white;
+    display: flex;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+#Homepage-Button {
+    margin-bottom: 20px;
+    
+}
+
+.masterheader_wrap {
+    align-items: flex-end;
+    display: flex;
+    margin: 0 auto;
+    max-width: 85vw;
+    width: 100%;
+}
+
+.masterheader_content {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-item-top {
+    font-size: 14px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-underline-offset: 0.2em;
+    font-weight: bolder;
+}
+
+.masterheader_top {
+    align-items: flex-start;
+    height: 35px;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: baseline;
+    
+}
+
+.nav-item-bottom {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-weight: bolder;
+}
+
+.masterheader_bottom {
+    height: 45px;
+    align-items: center;
+    display: flex;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
+
+.nav-item-bottom:hover {
+    text-decoration: underline;
+}
+
+#content-wrapper {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+#greeting-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#greeting-message {
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 150px;
+}
+
+#greeting-image-box {
+    max-width: 514px;
+}
+
+#met-ar-experience {
+    max-width: 100%;
+}
+
+#content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.column-image {
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+.content-box-text {
+    padding-top: 5px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.content-header {
+    padding-top: 50px;
+    font-weight: bolder;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+
+#footer-links-box {
+    display: flex;
+    flex-direction: row;
+    padding: calc(48px + 1.5vw) calc(24px + 0.75vw);
+}
+
+.footer-locations {
+    display: flex;
+    flex-direction: row;
+    padding: calc(48px + 1.5vw) calc(24px + 0.75vw);
+}
+
+li {
+    list-style-type: none;
+}
+
+#footer-logo {
+    margin-top: 16px;
+    margin-right: 23.645px;
+    margin-bottom: 70.935px;
+}
+
+.footer-link-box {
+    padding: 0px 35.468px;
+}
+
+.museum-address_name {
+    padding-bottom: 20px;
+}
+
+.footer-links {
+    color:black;
+    text-decoration: none;
+}
+
+.footer-links:after {
+    color:black
+}
+
+.footer-links-li:hover {
+    text-decoration: underline;
+}
